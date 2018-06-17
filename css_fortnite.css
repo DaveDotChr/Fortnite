@@ -1,33 +1,57 @@
 
 body.Hintergrund{
+	
+	
+	
+	
 }
 
-.header {
-background-image: url("HeaderHintergrund.png");
-
-
-
-font-size:75px;
+div.header {
+	background-image: url("HeaderHintergrund.png");
+	height:80px;
+	font-size:20px;
+	margin-bottom:30px;
 
 }
 
 div.navigation{
-background-color:black;
-}
+	background-color:black;
 
-a.Teil_2{
-color:white;
-text-decoration:none;
-}
-a.Random_link{
-margin-left:40px;
-color:white;
-text-decoration:none;
 }
 
 a.Homepage{
-	
-	margin-left: 20px;
-	margin-top:60px;
-	
+	position:absolute;
+	left: 300px;
+	top: 12px;	
 }
+
+a.News{
+	position:relative;
+	left: 300px;
+	top: 30px;	
+	margin-left: 250px;
+	text-decoration:none;
+	color:black;
+}
+
+a.Gallerie{
+	position:relative;
+	left: 300px;
+	top: 30px;
+	margin-left: 50px;
+	text-decoration:none;
+}
+
+a.Informationen{
+	position:relative;
+	left: 300px;
+	top: 30px;
+	margin-left: 50px;
+	text-decoration:none;
+}
+	
+	
+
+	
+	
+	
