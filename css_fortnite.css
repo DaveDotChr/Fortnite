@@ -1,7 +1,7 @@
 
-body.Hintergrund{
+body.body{
 	
-	
+	background-image: url("Schwarz.jpg");
 	
 	
 }
@@ -11,6 +11,12 @@ div.header {
 	height:80px;
 	font-size:20px;
 	margin-bottom:30px;
+	border-style:gradient;
+	border-width:5px;
+	border-top-color:grey;
+	border-left-color:dark-grey;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
 
 }
 
