@@ -1,0 +1,12 @@
+body{
+    background: url("Himmel.jpg") repeat-x;
+}
+
+body.Hintergrund{
+}
+
+.header {
+background-image: url("none");
+font-size:75px;
+
+}
