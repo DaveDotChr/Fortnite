@@ -1,0 +1,107 @@
+div.header {
+	background-image: url("HeaderHintergrund.png");
+	height:80px;
+	font-size:20px;
+	margin-bottom:30px;
+
+}
+
+div.navigation{
+	background-color:black;
+
+}
+a.Homepage{
+	position:absolute;
+	left: 320px;
+	top: 12px;	
+}
+
+a.News{
+	position:relative;
+	left: 320px;
+	top: 30px;	
+	margin-left: 250px;
+	text-decoration:none;
+	color:black;
+	font-size: 25px;
+}
+
+a.Gallerie{
+	position:relative;
+	left: 320px;
+	top: 30px;
+	margin-left: 50px;
+	color:black;
+	text-decoration:none;
+	font-size: 25px;
+}
+
+a.Informationen{
+	position:relative;
+	left: 320px;
+	top: 30px;
+	margin-left: 50px;
+	text-decoration:none;
+	color:black;
+	font-size: 25px;
+	
+}
+	
+a:hover {
+text-decoration:underline
+
+} 
+
+body{
+	background: url("schwarz.jpg");
+}
+p{
+	color: white;
+	font-size: 30px;
+}
+div{
+	color: white;
+}
+.kasten1{
+	min-height: 500px;
+	width: 600px;
+	margin-top: 100px;
+	margin-left: 300px;
+	border-width: 5px;
+	border-radius: 40px;
+	border-color: white;
+	border-style: solid;
+	padding-top: 20px;
+	padding-left: 30px;
+	font-size: 20px;
+	float:left;
+}
+
+.kasten2{
+	min-height: 400px;
+	width: 580px;
+	margin-top: 100px;
+	margin-left: 300px;
+	border-width: 5px;
+	border-radius: 40px;
+	border-color: white;
+	border-style: solid;
+	padding-top: 120px;
+	padding-left: 50px;
+	font-size: 20px;
+	float:left;
+}
+.kasten3{
+	min-height: 500px;
+	width: 600px;
+	margin-top: 100px;
+	margin-left: 300px;
+	border-width: 5px;
+	border-radius: 40px;
+	border-color: white;
+	border-style: solid;
+	padding-top: 20px;
+	padding-left: 30px;
+	font-size: 20px;
+	float:left;
+}
