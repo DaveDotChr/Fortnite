@@ -1,5 +1,7 @@
 body{
-    background: url("Himmel.jpg") repeat-x;
+    background: url("Himmel.jpg") no-repeat center center fixed;
+	-moz-background-size: cover;
+background-size: cover;
 }
 
 body.Hintergrund{
@@ -8,5 +10,6 @@ body.Hintergrund{
 .header {
 background-image: url("none");
 font-size:75px;
-
+color: white;
 }
+

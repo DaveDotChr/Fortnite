@@ -5,28 +5,57 @@
 <link rel="shortcut icon" href="faviconfortnite.ico"/> 
  <link rel =stylesheet href= "css_fortnite_kontakt.css"/>
  <link rel =stylesheet href= "desing_tim.css"/>
+ <script src='https://www.google.com/recaptcha/api.js'></script>
 	
-<title>Gallerie-Fortnite</title>
+<title>Kontakt-Fortnite</title>
 
-<form id="kontaktformular" name="kontaktformular" action="">
-<div>
-   <label for="absender">Ihre E-Mail-Adresse:</label>
-   <input type="text" id="absender" name="absender" />
+</head>
+<body>
+<div class = "header">
+
+Fortnite
+<form>
 </div>
-<div>
-	<div>
-		<label for="nachricht">Ihre Nachricht: </label>
-   </div>
-   <div>
-   <textarea id="nachricht" name="nachricht"
-   
-    cols="20" rows="5"></textarea>
-	</div>
+<h1>Kontakt-Fortnite</h1>
+
+<div class="name" data-action="element">
+    <label for="NAME">
+        <div>Name</div>
+        </label>
+		
+		<div name">
+                <input type="text" name="NAME" value="" id="NAME" style="width: 100%;"/>
+    </div>
+		
+		<div class="email" data-action="element">
+    <label for="EMAIL">
+        <div>E-Mail</div>
+        </label>
+	<div class="email">
+                <input type="email" autocorrect="off" autocapitalize="on" name="EMAIL" value="" style="width: 100%;" id="EMAIL"/>
+    </div>
+	
+	<label for="NACHRICHT">
+        <div>Nachricht</div>
+        </label>
+	
+	<div class="NACHRICHT">
+                <textarea name="NACHRICHT" rows="6" style="width: 100%;" id="NACHRICHT"></textarea>
+    </div>
+
+	<div class="DATENSCHUTZ" data-action="element">
+    <label></label>
+    <div class="datenschutz">
+        <div>
+    <input id="ACHTUNG" type="checkbox" name="dataprivacy" data-error-message="Bitte der Datenschutzerklärung zustimmen."/>
+    <label for="ACHTUNG">
+        Es gilt die <a href="Datenschutz_Tim.html" target="_blank">Datenschutzerklärung</a>.    </label>
 </div>
-<div>
-   <input type="submit" value="Abschicken" />
+<div class="g-recaptcha" data-sitekey="6Lclh18UAAAAANnhQ4vmMWxSKmd6oFtprydQ0vpd"></div>
+	
+<input type="submit" value="Absenden" data-action="formButton"/>
+    </div>
 </div>
 </form>
-
 </head>
 <body>

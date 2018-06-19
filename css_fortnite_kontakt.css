@@ -1,8 +1,18 @@
+.header {
+background-image: url("none");
+font-size:75px;
+color: white;
+}
+
+h1{
+	color: white;
+}
+
 body{
     background: url("Himmel.jpg") repeat-x;
 }
 
-form {
+.name {
    background-color: #DDDDDD; 
    width: 500px;
    padding: 40px; 
