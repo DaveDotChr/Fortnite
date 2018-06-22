@@ -1,13 +1,16 @@
 
 body.body{
 	
-	background-image: url("Schwarz.jpg");
-	
+	background-image: url("Himmel.jpg");
+	-moz-background-size:cover;
+	background-size:cover;
+	color:white;
 	
 }
 
 div.header {
-	background-image: url("HeaderHintergrund.png");
+	background-image: url("HeaderHintergrund.png") ;
+	
 	height:80px;
 	font-size:20px;
 	margin-bottom:30px;
@@ -25,13 +28,6 @@ div.navigation{
 
 }
 
-div.SeiteL{
-	
-	width:320px;
-	height:200px;
-	background-color:black;
-	
-}
 
 
 
@@ -39,16 +35,18 @@ a.Homepage{
 	position:absolute;
 	left: 320px;
 	top: 12px;	
+	
 }
 
 a.News{
 	position:relative;
-	left: 320px;
-	top: 30px;	
-	margin-left: 250px;
+	
+	
 	text-decoration:none;
-	color:black;
+	color:#686d6d;
 	font-size: 25px;
+	
+
 }
 
 a.Gallerie{
@@ -56,7 +54,7 @@ a.Gallerie{
 	left: 320px;
 	top: 30px;
 	margin-left: 50px;
-	color:black;
+	color:#b3c6c4;
 	text-decoration:none;
 	font-size: 25px;
 }
@@ -67,7 +65,7 @@ a.Informationen{
 	top: 30px;
 	margin-left: 50px;
 	text-decoration:none;
-	color:black;
+	color:#b3c6c4;
 	font-size: 25px;
 	
 }
@@ -77,6 +75,44 @@ text-decoration:underline
 
 }	
 
-	
-	
-	
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+	left: 620px;
+	top:15px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:hsla(0,0,0,0.5);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #686d6d;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: hsla(0,0,0,0.5);
+}
