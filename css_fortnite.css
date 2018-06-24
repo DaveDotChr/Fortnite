@@ -23,16 +23,42 @@ div.header {
 
 }
 
-div.navigation{
-	background-color:black;
+div.test {
+	
+	width: 700px;
+	height:700px;
+	
+	
+}
 
+div.shareicons {
+	
+	position: relative;
+    display: inline-block;
+	margin-left:50px;
+	left:400px;
+	top:8px;
+	
 }
 
 
 
+div.share {
+	
+	position:realtive;
+	
+	
+}
+
+.j-meta-links {
+	
+	
+	
+}
+
 
 a.Homepage{
-	position:absolute;
+	position:relative;
 	left: 320px;
 	top: 12px;	
 	
@@ -51,9 +77,9 @@ a.News{
 
 a.Gallerie{
 	position:relative;
-	left: 320px;
-	top: 30px;
-	margin-left: 50px;
+	left: 400px;
+	top: px;
+	margin-left: 00px;
 	color:#b3c6c4;
 	text-decoration:none;
 	font-size: 25px;
@@ -61,8 +87,7 @@ a.Gallerie{
 
 a.Informationen{
 	position:relative;
-	left: 320px;
-	top: 30px;
+	left:400px;
 	margin-left: 50px;
 	text-decoration:none;
 	color:#b3c6c4;
@@ -71,15 +96,15 @@ a.Informationen{
 }
 	
 a:hover {
-text-decoration:underline
+text-decoration:underline;
 
 }	
 
 .dropbtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
+    background-color: transparent;
+    color:#b3c6c4;
+    font-family:Times;
+    font-size: 25px;
     border: none;
     cursor: pointer;
 }
@@ -87,8 +112,9 @@ text-decoration:underline
 .dropdown {
     position: relative;
     display: inline-block;
-	left: 620px;
-	top:15px;
+	margin-left:50px;
+	left:400px;
+	
 }
 
 .dropdown-content {
@@ -107,7 +133,7 @@ text-decoration:underline
     display: block;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: hsla(0,0,0,0.5)}
 
 .dropdown:hover .dropdown-content {
     display: block;
