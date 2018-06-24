@@ -1,0 +1,153 @@
+body{
+    background-image: url("Himmel.jpg");
+	-moz-background-size: cover;
+	background-size: cover;
+}
+div.header {
+	background-image: url("HeaderHintergrund.png");
+	height:80px;
+	font-size:20px;
+	margin-bottom:30px;
+
+}
+
+div.navigation{
+	background-color:black;
+
+}
+
+div.SeiteL{
+	
+	width:320px;
+	height:200px;
+	background-color:black;
+	
+}
+
+
+
+a.Homepage{
+	position:absolute;
+	left: 320px;
+	top: 12px;	
+}
+
+a.Skins{
+	position:relative;
+	left: 320px;
+	top: 30px;	
+	margin-left: 250px;
+	text-decoration:none;
+	color:black;
+	font-size: 25px;
+}
+
+a.Gallerie{
+	position:relative;
+	left: 320px;
+	top: 30px;
+	margin-left: 50px;
+	color:black;
+	text-decoration:none;
+	font-size: 25px;
+}
+
+a.Waffenupdates{
+	position:relative;
+	left: 320px;
+	top: 30px;
+	margin-left: 50px;
+	text-decoration:none;
+	color:black;
+	font-size: 25px;
+	
+}
+
+a.Informationen{
+	position:relative;
+	left: 320px;
+	top: 30px;
+	margin-left: 50px;
+	text-decoration:none;
+	color:black;
+	font-size: 25px;
+}
+	
+a:hover {
+text-decoration:underline
+
+} 
+
+
+
+
+
+
+
+
+
+
+.bilder{
+	width: 90%; 
+	height:90%;
+	margin-left:20px;
+}
+a.map{
+	font-size:50px;
+	font-family:oblique;
+	color: white;
+	text-decoration:underline;
+}
+a.Schriftl{
+	font-size:30px;
+	font-family:oblique;
+	color: white;
+	margin-left:20px;
+}
+a.Schriftr{
+	font-size:30px;
+	font-family:oblique;
+	color: white;
+	margin-left:180px;
+}
+div.mapbox1{
+	min-height:360px;
+	width:450px;
+	color:white;
+	margin-top:30px;
+	margin-left:40px;
+	border-color:white;
+	border-width:5px;
+	padding-top:10px;
+	padding-left:10px;
+	border-style:solid;
+	float:left;
+}
+
+div.mapbox2{
+	min-height:360px;
+	width:450px;
+	color:white;
+	margin-top:30px;
+	margin-left:40px;
+	border-color:white;
+	border-width:5px;
+	padding-top:10px;
+	padding-left:10px;
+	border-style:solid;
+	float:left;
+}
+
+div.mapbox3{
+	min-height:360px;
+	width:450px;
+	color:white;
+	margin-top:30px;
+	margin-left:40px;
+	border-color:white;
+	border-width:5px;
+	padding-top:10px;
+	padding-left:10px;
+	border-style:solid;
+	float:left;
+}
