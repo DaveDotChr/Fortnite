@@ -1,6 +1,6 @@
 body.body{
 	
-	background: url("Himmel.jpg")no-repeat center center fixed;
+	background: url("Bilder/Himmel.jpg")no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -12,7 +12,7 @@ body.body{
 }
 
 div.header {
-	background-image: url("HeaderHintergrund.png") ;
+	background-image: url("Bilder/HeaderHintergrund.png") ;
 	
 	height:80px;
 	font-size:20px;
