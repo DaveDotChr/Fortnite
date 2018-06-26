@@ -38,6 +38,8 @@ div.test {
 	
 }
 
+
+
 div.shareicons {
 	
 	position: relative;
@@ -176,3 +178,64 @@ color:#ff9011;
     background-color: transparent;
 	color:#ff9011;
 }
+
+
+
+
+
+
+
+
+
+div.TwichKanäle {
+	
+	margin-top: 100px;
+	margin-left:20%;
+	margin-right:20%;
+	position:middle;
+	width:60%;
+	height:1000px;
+	
+	
+	
+}
+
+div.Channel1 {
+	position:absolute;
+	width:420px;
+	height:200px;
+	background-image: url("Bilder/Twich Channel BackgroundF.png");
+
+}
+
+img.Ninja {
+	
+	
+	
+}
+
+div.Channel2 {
+	
+	position:absolute;
+	margin-left:600px;
+	width:420px;
+	height:200px;
+	background-image: url("Bilder/Twich Channel BackgroundF.png");
+	
+}
+
+img.dakotaz {
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
