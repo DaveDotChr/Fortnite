@@ -1,7 +1,7 @@
 
 body.body{
 	
-	background: url("Himmel.jpg")no-repeat center center fixed;
+	background: url("Bilder/Himmel.jpg")no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -13,7 +13,7 @@ body.body{
 }
 
 div.header {
-	background-image: url("HeaderHintergrund.png") ;
+	background-image: url("Bilder/HeaderHintergrund.png") ;
 	
 	height:80px;
 	font-size:20px;
@@ -26,6 +26,7 @@ div.header {
 	border-bottom-right-radius:20px;
 
 }
+
 
 div.test {
 	margin-left:20%;
@@ -185,57 +186,202 @@ color:#ff9011;
 
 
 
+div.Welcome {
+	
+	position:center;
+	margin-top: 100px;
+	margin-bottom:100px;
+	margin-right:20%;
+	margin-left:20%;
+	position:middle;
+	width:1152px;
+	height:700px;
+	
+	
+	
+}
+
+div.Video {
+	
+	width: 768px;
+	height:432px;
+	border-style:gradient;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	
+	
+}
+
+
+
+
+
+
 
 
 div.TwichKanäle {
 	
+	position:center;
 	margin-top: 100px;
-	margin-left:20%;
+	margin-bottom:100px;
 	margin-right:20%;
+	margin-left:20%;
 	position:middle;
-	width:60%;
-	height:1000px;
+	width:1152px;
+	height:700px;
 	
+
+	
+}
+
+p.TextTeam {
+	
+	
+	margin-left:35px;
+	font-size: 30px;
+	font-family:"Burbank Big Condensed";
+	color:white;
+	float:left;
+	clear:left;
+}
+p.TextName {
+	
+	float:left;
+	margin-top:35px;
+	margin-left:20px;
+	font-size: 40px;
+	font-family:"Burbank Big Condensed";
+	color:white;
+	
+}
+
+
+img.Profilepicture {
+	
+	margin-left:30px;
+	margin-top:30px;
+	border-style:gradient;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	float:left;
 	
 	
 }
+
 
 div.Channel1 {
-	position:absolute;
-	width:420px;
+	
+	float:left;
+	width:350px;
 	height:200px;
 	background-image: url("Bilder/Twich Channel BackgroundF.png");
-
+	border-style:gradient;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	
 }
 
-img.Ninja {
-	
-	
-	
-}
 
 div.Channel2 {
-	
-	position:absolute;
-	margin-left:600px;
-	width:420px;
+		
+	float:left;
+	width:350px;
 	height:200px;
 	background-image: url("Bilder/Twich Channel BackgroundF.png");
+	margin-left:50px;
+	border-style:gradient;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
 	
 }
 
-img.dakotaz {
-	
-	
+
+div.Channel3 {
+		
+	float:left;
+	width:350px;
+	height:200px;
+	background-image: url("Bilder/Twich Channel BackgroundF.png");
+	margin-left:50px;
+	border-style:gradient;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
 	
 }
 
 
+div.Channel4 {
+	
+	float:left;
+	width:350px;
+	height:200px;
+	background-image: url("Bilder/Twich Channel BackgroundF.png");
+	margin-top:50px;
+	border-style:gradient;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	
+}
 
 
+div.Channel5 {
+		
+	float:left;
+	width:350px;
+	height:200px;
+	background-image: url("Bilder/Twich Channel BackgroundF.png");
+	margin-left:50px;
+	margin-top:50px;
+	border-style:gradient;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	
+}
 
 
+div.Channel6 {
+		
+	float:left;
+	width:350px;
+	height:200px;
+	background-image: url("Bilder/Twich Channel BackgroundF.png");
+	margin-left:50px;
+	margin-top:50px;
+	border-style:gradient;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	
+}
 
-
+div.Channel7 {
+	
+	float:left;
+	width:350px;
+	height:200px;
+	background-image: url("Bilder/Twich Channel BackgroundF.png");
+	margin-top:50px;
+	border-style:gradient;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	
+}
 
 
