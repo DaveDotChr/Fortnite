@@ -175,3 +175,80 @@ color:#ff9011;
     background-color: transparent;
 	color:#ff9011;
 }
+
+
+
+
+
+div.name1{
+background-color: #AAAA; 
+padding: 40px; 
+border: 3px solid #8c8c8c;
+position:relative;
+width:900px;       
+height:280px;        
+margin:2em auto;
+}
+
+div.nameimpressum{
+background-color: #AAAA; 
+padding: 40px; 
+border: 3px solid #8c8c8c;
+position:relative;
+width:450px;       
+height:200px;        
+margin:2em auto;
+padding-top: 0px;
+}
+
+div.namedatenschutz{
+background-color: #AAAA; 
+padding: 40px; 
+border: 3px solid #8c8c8c;
+position:relative;
+width:900px;       
+height:auto;        
+margin:2em auto;
+padding-top: 0px;
+}
+
+div.namekontakt{
+background-color: #AAAA; 
+padding: 40px; 
+border: 3px solid #8c8c8c;
+position:relative;
+width:450px;       
+height:auto;        
+margin:2em auto;
+padding-top: 0px;
+}
+
+div.newsletter{
+font-size:20px;
+color: black;	
+}
+
+div.email{
+font-size:15px;
+color: black;
+width: center;
+}
+
+div.txt{
+font-size:15px;
+color: black;
+}
+.lnk{
+font-size:15px;
+color: ;	
+}
+
+div.tetex{
+font-size:15px;
+color: black;
+}
+
+.Schrift{
+padding-top: 30px;
+padding-bottom: 30px;
+}

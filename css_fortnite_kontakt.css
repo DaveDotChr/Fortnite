@@ -170,10 +170,13 @@ body{
 }
 
 .name {
-   background-color: #DDDDDD; 
-   width: 500px;
-   padding: 40px; 
-   border: 3px solid #8c8c8c;
+	
+background-color: #AAAA; 
+width: 500px;
+padding: 40px; 
+border: 3px solid #8c8c8c;
+position:relative;       
+margin:2em auto;
 }
 .floatlinks{
 	float:left;
@@ -181,4 +184,8 @@ body{
 
 .flaotclear{
 	float: clear;
+}
+a{
+	color: #667FFF;
+	font-size:20px;
 }

@@ -3,9 +3,16 @@ background-image: url("none");
 font-size:75px;
 color: white;
 }
+
+a{
+	color: #667FFF;
+	font-size:20px;
+}
+
 h1{
 	color: white;
 }
 p{
-	color: white;
+	color: black;
 }
+
