@@ -1,3 +1,4 @@
+    /* David Weißhardt Generell wurde der Header von mir erstellt ansonsten noch dieses css und "GameShow Homepage.html" */
 
 body.body{
 	
@@ -219,6 +220,14 @@ p.TextWelcome {
 	
 }
 
+p.TextStreamer {
+	
+	font-size: 100px;
+	font-family:"Burbank Big Condensed";
+	color:#4e12bc;
+	
+}
+
 div.Video {
 	
 	width: 768px;
@@ -386,6 +395,37 @@ div.Channel7 {
 	width:350px;
 	height:200px;
 	background-image: url("Bilder/Twich Channel BackgroundF.png");
+	margin-top:50px;
+	border-style:gradient;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	
+}
+div.Channel8 {
+		
+	float:left;
+	width:350px;
+	height:200px;
+	background-image: url("Bilder/Twich Channel BackgroundF.png");
+	margin-left:50px;
+	margin-top:50px;
+	border-style:gradient;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	
+}
+
+div.Channel9 {
+		
+	float:left;
+	width:350px;
+	height:200px;
+	background-image: url("Bilder/Twich Channel BackgroundF.png");
+	margin-left:50px;
 	margin-top:50px;
 	border-style:gradient;
 	border-bottom-left-radius:20px;
