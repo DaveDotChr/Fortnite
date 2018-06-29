@@ -23,6 +23,7 @@ div.header {
 	border-left-color:dark-grey;
 	border-bottom-left-radius:20px;
 	border-bottom-right-radius:20px;
+	font-family: "Showcard Gothic";
 
 }
 
@@ -84,7 +85,7 @@ a.Homepage{
 a.News{
 	position:relative;
 	margin:0px;
-	
+	font-family: "Showcard Gothic";
 	text-decoration:none;
 	color:#686d6d;
 	font-size: 25px;
@@ -115,6 +116,7 @@ a.Informationen{
 a:hover {
 text-decoration:none;
 color:#ff9011;
+font-family: "Showcard Gothic";
 }	
 
 .dropbtn {
