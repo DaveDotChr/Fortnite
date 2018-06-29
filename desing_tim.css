@@ -23,6 +23,7 @@ div.header {
 	border-left-color:dark-grey;
 	border-bottom-left-radius:20px;
 	border-bottom-right-radius:20px;
+	font-family: "Showcard Gothic";
 
 }
 
@@ -135,6 +136,7 @@ color:#ff9011;
     font-size: 25px;
     border: none;
     cursor: pointer;
+	font-family:""
 }
 
 .dropdown {
@@ -252,4 +254,5 @@ color: black;
 .Schrift{
 padding-top: 30px;
 padding-bottom: 30px;
+font-family: "Showcard Gothic";
 }

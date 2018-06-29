@@ -120,7 +120,7 @@ color:#ff9011;
 .dropbtn {
     background-color: transparent;
     color:#b3c6c4;
-    font-family:Times;
+    font-family: "Showcard Gothic";
     font-size: 25px;
     border: none;
     cursor: pointer;
@@ -131,7 +131,7 @@ color:#ff9011;
     display: inline-block;
 	margin-left:50px;
 	left:400px;
-	
+	font-family: "Showcard Gothic";
 }
 
 .dropdown-content {
@@ -141,11 +141,12 @@ color:#ff9011;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+	font-family: "Showcard Gothic";
 }
 
 .dropdown-content a {
     color:#b3c6c4;
-    font-family:Times;
+   font-family: "Showcard Gothic";
     font-size: 25px;
     padding: 10px;
     text-decoration: none;
@@ -155,15 +156,18 @@ color:#ff9011;
 .dropdown-content a:hover {
 background-color: transparent;
 color:#ff9011;
+font-family: "Showcard Gothic";
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
+	font-family: "Showcard Gothic";
 }
 
 .dropdown:hover .dropbtn {
     background-color: transparent;
 	color:#ff9011;
+	font-family: "Showcard Gothic";
 }
 body{
     background: url("Bilder/Himmel.jpg") repeat-x;
@@ -177,6 +181,7 @@ padding: 40px;
 border: 3px solid #8c8c8c;
 position:relative;       
 margin:2em auto;
+
 }
 .floatlinks{
 	float:left;
