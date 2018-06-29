@@ -70,6 +70,7 @@ div.div-j-meta-links {
 	font-size:25px;
 	color:#b3c6c4;
 	text-decoration:none;
+	font-family:"Showcard Gothic";
 	
 
 	
@@ -93,7 +94,7 @@ a.Homepage{
 	position:relative;
 	left: 320px;
 	top: 12px;	
-	
+	font-family:"Showcard Gothic";
 }
 
 a.News{
@@ -103,7 +104,7 @@ a.News{
 	text-decoration:none;
 	color:#686d6d;
 	font-size: 25px;
-	
+	font-family:"Showcard Gothic";
 
 }
 
@@ -115,6 +116,7 @@ a.Gallerie{
 	color:#b3c6c4;
 	text-decoration:none;
 	font-size: 25px;
+	font-family:"Showcard Gothic";
 }
 
 a.Informationen{
@@ -124,7 +126,7 @@ a.Informationen{
 	text-decoration:none;
 	color:#b3c6c4;
 	font-size: 25px;
-	
+	font-family:"Showcard Gothic";
 }
 	
 a:hover {
@@ -135,10 +137,10 @@ color:#ff9011;
 .dropbtn {
     background-color: transparent;
     color:#b3c6c4;
-    font-family:Times;
     font-size: 25px;
     border: none;
     cursor: pointer;
+	font-family:"Showcard Gothic";
 }
 
 .dropdown {
@@ -146,6 +148,7 @@ color:#ff9011;
     display: inline-block;
 	margin-left:50px;
 	left:400px;
+	font-family:"Showcard Gothic";
 	
 }
 
@@ -160,16 +163,17 @@ color:#ff9011;
 
 .dropdown-content a {
     color:#b3c6c4;
-    font-family:Times;
     font-size: 25px;
     padding: 10px;
     text-decoration: none;
     display: block;
+	font-family:"Showcard Gothic";
 }
 
 .dropdown-content a:hover {
 background-color: transparent;
 color:#ff9011;
+font-family:"Showcard Gothic";
 }
 
 .dropdown:hover .dropdown-content {
@@ -179,13 +183,21 @@ color:#ff9011;
 .dropdown:hover .dropbtn {
     background-color: transparent;
 	color:#ff9011;
+	font-family:"Showcard Gothic";
 }
 
 
 
 
 
-
+table, tr, th {
+	
+	
+	border-style:solid;
+	border-radius:3px;
+	
+	
+}
 
 div.Welcome {
 	
@@ -206,7 +218,7 @@ div.Welcome {
 p.SpielWelcome {
 	
 	font-size: 100px;
-	font-family:"Burbank Big Condensed";
+	font-family:"Showcard Gothic";
 	color:white;
 	
 	
@@ -215,7 +227,7 @@ p.SpielWelcome {
 p.TextWelcome {
 	
 	font-size: 60px;
-	font-family:"Burbank Big Condensed";
+	font-family:"Showcard Gothic";
 	color:white;
 	
 }
@@ -223,7 +235,7 @@ p.TextWelcome {
 p.TextStreamer {
 	
 	font-size: 100px;
-	font-family:"Burbank Big Condensed";
+	font-family:"Showcard Gothic";
 	color:#4e12bc;
 	
 }
@@ -260,19 +272,20 @@ p.TextTeam {
 	
 	
 	margin-left:35px;
-	font-size: 30px;
-	font-family:"Burbank Big Condensed";
+	font-size: 20px;
+	font-family:"Showcard Gothic";
 	color:white;
 	float:left;
 	clear:left;
+	padding-top:15px;
 }
 p.TextName {
 	
 	float:left;
 	margin-top:35px;
 	margin-left:20px;
-	font-size: 40px;
-	font-family:"Burbank Big Condensed";
+	font-size: 28px;
+	font-family:"Showcard Gothic";
 	color:white;
 	
 }
