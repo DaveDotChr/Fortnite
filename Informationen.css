@@ -254,4 +254,11 @@ div{
 	padding-right: 30px;
 	float:left;
 }
-
+.kastenf{
+	min-height: 1px;
+	width: 550px;
+	margin-left: 200px;
+	padding-left: 55px;
+	padding-right: 55px;
+	float:left;
+}
