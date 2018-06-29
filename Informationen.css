@@ -33,20 +33,6 @@ div.share {
 	
 }
 
-div.div-j-meta-links {
-	
-	position:bottom;
-	width:100%;
-	height:30px;
-	background: black;
-	font-size:25px;
-	color:#b3c6c4;
-	text-decoration:none;
-	
-
-	
-}
-
 
 a {
 	
@@ -111,6 +97,7 @@ color:#ff9011;
     font-size: 25px;
     border: none;
     cursor: pointer;
+	font-family:"Showcard Gothic";
 }
 
 .dropdown {
@@ -118,6 +105,7 @@ color:#ff9011;
     display: inline-block;
 	margin-left:50px;
 	left:400px;
+	font-family:"Showcard Gothic";
 	
 }
 
@@ -128,6 +116,7 @@ color:#ff9011;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+	font-family:"Showcard Gothic";
 }
 
 .dropdown-content a {
@@ -137,20 +126,24 @@ color:#ff9011;
     padding: 10px;
     text-decoration: none;
     display: block;
+	font-family:"Showcard Gothic";
 }
 
 .dropdown-content a:hover {
 background-color: transparent;
 color:#ff9011;
+font-family:"Showcard Gothic";
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
+	font-family:"Showcard Gothic";
 }
 
 .dropdown:hover .dropbtn {
     background-color: transparent;
 	color:#ff9011;
+	font-family:"Showcard Gothic";
 }
 
 body{
@@ -165,11 +158,13 @@ z-index: -10;
 }
 p{
 	color: white;
-	font-size: 40px;
+	font-size: 35px;
+	font-family:"Showcard Gothic";
 }
 div{
 	color: white;
-	font-size: 25px;
+	font-size: 20px;
+	font-family:"Showcard Gothic";
 }
 .pFarben{
 	font-size: 25px;
@@ -178,7 +173,7 @@ div{
 	min-height: 500px;
 	width: 600px;
 	margin-top: 100px;
-	margin-left: 300px;
+	margin-left: 200px;
 	border-width: 5px;
 	border-radius: 40px;
 	border-color: white;
@@ -192,7 +187,7 @@ div{
 	min-height: 400px;
 	width: 580px;
 	margin-top: 100px;
-	margin-left: 300px;
+	margin-left: 200px;
 	border-width: 5px;
 	border-radius: 40px;
 	border-color: white;
@@ -207,7 +202,7 @@ div{
 	min-height: 420px;
 	width: 570px;
 	margin-top: 100px;
-	margin-left: 300px;
+	margin-left: 200px;
 	border-width: 5px;
 	border-radius: 40px;
 	border-color: white;
@@ -222,7 +217,7 @@ div{
 	min-height: 500px;
 	width: 540px;
 	margin-top: 100px;
-	margin-left: 300px;
+	margin-left: 200px;
 	border-width: 5px;
 	border-radius: 40px;
 	border-color: white;
@@ -237,7 +232,7 @@ div{
 	min-height: 500px;
 	width: 550px;
 	margin-top: 100px;
-	margin-left: 300px;
+	margin-left: 200px;
 	border-width: 5px;
 	border-radius: 40px;
 	border-color: white;
@@ -246,4 +241,16 @@ div{
 	padding-left: 80px;
 	padding-right: 30px;
 	float:left;
+}
+
+div.div-j-meta-links {
+	
+	position:bottom;
+	width:100%;
+	height:30px;
+	background: black;
+	font-size:25px;
+	color:#b3c6c4;
+	text-decoration:none;
+	
 }
