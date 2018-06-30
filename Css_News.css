@@ -1,3 +1,4 @@
+/* Patrick */
 body{
     background-image: url("Bilder/Himmel.jpg");
 	-moz-background-size: cover;
@@ -226,7 +227,7 @@ a.Schriftr{
 }
 div.mapbox1{
 	min-height:350px;
-	min-width:420px;
+	min-width:450px;
 	color:white;
 	margin-top:30px;
 	margin-left:40px;
@@ -240,7 +241,7 @@ div.mapbox1{
 
 div.mapbox2{
 	min-height:350px;
-	min-width:420px;
+	min-width:450px;
 	color:white;
 	margin-top:30px;
 	margin-left:40px;
@@ -254,7 +255,7 @@ div.mapbox2{
 
 div.mapbox3{
 	min-height:350px;
-	min-width:420px;
+	min-width:450px;
 	color:white;
 	margin-top:30px;
 	margin-left:40px;
@@ -268,7 +269,7 @@ div.mapbox3{
 
 div.mapbox4{
 	min-height:350px;
-	min-width:420px;
+	min-width:450px;
 	color:white;
 	margin-top:30px;
 	margin-left:40px;
