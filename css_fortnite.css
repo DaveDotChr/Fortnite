@@ -15,7 +15,8 @@ body.body{
 
 div.header {
 	background-image: url("Bilder/HeaderHintergrund.png") ;
-	
+	margin:auto;
+	text-align:center;
 	height:80px;
 	font-size:20px;
 	margin-bottom:30px;
@@ -29,16 +30,6 @@ div.header {
 }
 
 
-div.test {
-	margin-left:20%;
-	margin-right:20%;
-	position:middle;
-	width:60%;
-	height:1000px;
-	background: #f2f4f7;
-	
-	
-}
 
 
 
@@ -47,7 +38,7 @@ div.shareicons {
 	position: relative;
     display: inline-block;
 	margin-left:50px;
-	left:400px;
+	left:80px;
 	top:8px;
 	
 }
@@ -61,12 +52,25 @@ div.share {
 	
 }
 
+
+
+footer.j-meta-links {
+	
+	margin-top:100px;
+	
+	
+	
+}
+
 div.div-j-meta-links {
 	
-	position:bottom;
-	width:100%;
+
+	
+	
+	margin:auto;
+	text-align:center;
 	height:30px;
-	background: black;
+	background: transparent;
 	font-size:25px;
 	color:#b3c6c4;
 	text-decoration:none;
@@ -92,7 +96,7 @@ a {
 
 a.Homepage{
 	position:relative;
-	left: 320px;
+	
 	top: 12px;	
 	font-family:"Showcard Gothic";
 }
@@ -110,7 +114,7 @@ a.News{
 
 a.Gallerie{
 	position:relative;
-	left: 400px;
+	left: 80px;
 	top: px;
 	margin-left: 0px;
 	color:#b3c6c4;
@@ -121,7 +125,7 @@ a.Gallerie{
 
 a.Informationen{
 	position:relative;
-	left:400px;
+	left:80px;
 	margin-left: 50px;
 	text-decoration:none;
 	color:#b3c6c4;
@@ -147,7 +151,7 @@ color:#ff9011;
     position: relative;
     display: inline-block;
 	margin-left:50px;
-	left:400px;
+	left:80px;
 	font-family:"Showcard Gothic";
 	
 }
@@ -189,6 +193,17 @@ font-family:"Showcard Gothic";
 
 
 
+div.TStatistk {
+	
+	margin:auto;
+	text-align:center;
+	width:100%;
+	height:500px;
+	margin-top: 100px;
+	margin-bottom:100px;
+	background-color:white;
+}
+
 
 table, tr, th {
 	
@@ -201,13 +216,11 @@ table, tr, th {
 
 div.Welcome {
 	
-	position:center;
+	text-align:center;
 	margin-top: 100px;
 	margin-bottom:100px;
-	margin-right:20%;
-	margin-left:20%;
 	position:middle;
-	width:1152px;
+	width:100%;
 	height:1000px;
 	
 	
@@ -242,9 +255,9 @@ p.TextStreamer {
 
 div.Video {
 	
-	width: 768px;
+	width: 100%;
 	height:432px;
-	margin-left:192px;
+	position:middle;
 	border-style:gradient;
 	border-bottom-left-radius:10px;
 	border-bottom-right-radius:10px;
@@ -255,14 +268,15 @@ div.Video {
 
 div.TwichKanäle {
 	
-	position:center;
-	margin-top: 100px;
+	
+	margin-top:100px;
 	margin-bottom:100px;
-	margin-right:20%;
-	margin-left:20%;
-	position:middle;
-	width:1152px;
+	margin:auto;
+	text-align:center;
+	
+	width:1150px;
 	height:700px;
+
 	
 
 	
@@ -317,6 +331,7 @@ div.Channel1 {
 	border-bottom-right-radius:20px;
 	border-top-left-radius:20px;
 	border-top-right-radius:20px;
+	position:middle;
 	
 }
 
@@ -333,7 +348,7 @@ div.Channel2 {
 	border-bottom-right-radius:20px;
 	border-top-left-radius:20px;
 	border-top-right-radius:20px;
-	
+	position:middle;
 }
 
 
@@ -349,13 +364,13 @@ div.Channel3 {
 	border-bottom-right-radius:20px;
 	border-top-left-radius:20px;
 	border-top-right-radius:20px;
-	
+	position:middle;
 }
 
 
 div.Channel4 {
 	
-	float:left;
+	clear:left;
 	width:350px;
 	height:200px;
 	background-image: url("Bilder/Twich Channel BackgroundF.png");
@@ -365,7 +380,8 @@ div.Channel4 {
 	border-bottom-right-radius:20px;
 	border-top-left-radius:20px;
 	border-top-right-radius:20px;
-	
+	float:left;
+	position:middle;
 }
 
 
@@ -382,7 +398,7 @@ div.Channel5 {
 	border-bottom-right-radius:20px;
 	border-top-left-radius:20px;
 	border-top-right-radius:20px;
-	
+	position:middle;
 }
 
 
@@ -399,11 +415,12 @@ div.Channel6 {
 	border-bottom-right-radius:20px;
 	border-top-left-radius:20px;
 	border-top-right-radius:20px;
-	
+	position:middle;
 }
 
 div.Channel7 {
 	
+	clear:left;
 	float:left;
 	width:350px;
 	height:200px;
@@ -414,7 +431,7 @@ div.Channel7 {
 	border-bottom-right-radius:20px;
 	border-top-left-radius:20px;
 	border-top-right-radius:20px;
-	
+	position:middle;
 }
 div.Channel8 {
 		
@@ -429,7 +446,7 @@ div.Channel8 {
 	border-bottom-right-radius:20px;
 	border-top-left-radius:20px;
 	border-top-right-radius:20px;
-	
+	position:middle;
 }
 
 div.Channel9 {
@@ -445,7 +462,7 @@ div.Channel9 {
 	border-bottom-right-radius:20px;
 	border-top-left-radius:20px;
 	border-top-right-radius:20px;
-	
+	position:middle;
 }
 
 
