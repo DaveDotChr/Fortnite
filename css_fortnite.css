@@ -193,26 +193,46 @@ font-family:"Showcard Gothic";
 
 
 
-div.TStatistk {
-	
+div.Tabelle {
 	margin:auto;
+	margin-top:100px;
+	margin-bottom:50px;
+	
 	text-align:center;
-	width:100%;
-	height:500px;
-	margin-top: 100px;
-	margin-bottom:100px;
-	background-color:white;
+	width:1150px;
+	height:300px;
+	
 }
 
 
-table, tr, th {
+
+div.Element-Grau {
 	
-	
+	float:left;
 	border-style:solid;
-	border-radius:3px;
-	
+	border-radius:0.5px;
+	width:24.4%;
+	font-family:"Showcard Gothic";
+	font-size:20px;
+	background-color:#c6cad1;
 	
 }
+
+div.Element-Weiß {
+	
+	float:left;
+	border-style:solid;
+	border-radius:0.5px;
+	width:24.4%;
+	font-family:"Showcard Gothic";
+	font-size:20px;
+	background-color:white;
+	
+}
+
+
+
+
 
 div.Welcome {
 	
@@ -273,12 +293,8 @@ div.TwichKanäle {
 	margin-bottom:100px;
 	margin:auto;
 	text-align:center;
-	
 	width:1150px;
 	height:700px;
-
-	
-
 	
 }
 
